@@ -1,17 +1,23 @@
+
 document.querySelectorAll(".mab").forEach((multiAction) => {
-    multiAction.querySelector(".mab__button--menu");
-    multiAction.querySelector(".mab__list");
+    const menuButton = multiAction.querySelector(".mab__button--menu");
+    const list = multiAction.querySelector(".mab__list");
+
+    menuButton.addEventListener("click", () => {
+        list.classList.toggle("mab__list--visible");
+    });
 });
-// Create alert with instruction for parent
+//Hide all lists when clicking elsewhere on the page
 document.addEventListener("click", (e) => {
-    const alertInfo =
+    const keepOpen =
         e.target.matches(".mab__list") ||
         e.target.matches(".mab__button--menu") ||
         e.target.closest(".mab__button--menu");
 
-    //Hack to simplify/reduce code base 
-    let str =
-        "To Register your child:                                                                         (1) Click REGISTER and then 'PARENT'.                                              (2) Click MY STUDENTS tab                                                                  (3) Click 'ADD A STUDENT' link and complete form.                           The bank will supply you with a NO-FEE saving account FOR YOUR CHILD.";
+    if (keepOpen) return;
 
-    if (alertInfo) alert(str);
+    document.querySelectorAll(".mab__list").forEach((list) => {
+        list.classList.remove("mab__list--visible");
+    });
 });
+
