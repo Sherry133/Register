@@ -32,7 +32,7 @@ header .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('/img/darkBeach.jpg');
+    background-image: url('./img/darkBeach.jpg');
   
     transition: 0.5s;
     overflow: hidden;
