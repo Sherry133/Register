@@ -57,10 +57,7 @@ body {
 
 .card__front {
   background-color: var(--clr);
-
   background-image: url('/img/darkBeach.jpg');
-  
-
   background-size: cover;
   background-blend-mode: overlay;
   color: #333;
