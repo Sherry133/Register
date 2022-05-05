@@ -57,7 +57,10 @@ body {
 
 .card__front {
   background-color: var(--clr);
- background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/fair.jpg); 
+ /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/fair.jpg);  */
+  background-image: url("/img/dark__beach__1.jpg") ;
+  /* background: url ("https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/Beach3.1.mp4"); */
+
   background-size: cover;
   background-blend-mode: overlay;
   color: #333;
