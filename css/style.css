@@ -33,12 +33,6 @@ header .logo {
     justify-content: space-between;
     align-items: center;
     background-image: url("/img/dark__beach__1.jpg");
-    /* background-image: linear-gradient(
-        120deg,
-        hsl(196, 79%, 34%) 0%,
-        #fda085 80%
-    ); */
-    /* background-color: #0482bc; */;
     transition: 0.5s;
     overflow: hidden;
     z-index: 2;
@@ -61,7 +55,7 @@ header .logo {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #0477ad;
+    background-color: hsla(223, 100%, 60%, 1);
     mix-blend-mode: overlay;
 }
 
@@ -141,6 +135,9 @@ a {
     font-family: arial, sans-serif;
     letter-spacing: 1px;
 }
+a:hover {
+    color: red;
+}
 
 @media (max-width: 991px) {
     .showcase,
@@ -182,7 +179,7 @@ a {
 
 /* This hover also changes the hover color of the 'list' and secondary button. */
 .mab__button:hover {
-    background: lightblue;
+   /* background: red; */
     cursor: pointer;
 }
 
@@ -192,13 +189,14 @@ a {
     font-family: "Arial", sans-serif;
     background-color: #ececec;
     padding: 4px;
+    border: none;
 }
 
 .mab__button--secondary:nth-last-child(1) {
     padding-bottom: 1em;
 }
 .mab__button--secondary:hover {
-    background: lightblue;
+    /* background: lightblue; */
     cursor: pointer;
 }
 
