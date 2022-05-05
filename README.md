@@ -5,18 +5,18 @@ This banner is an Html5 banner school webmasters can insert in their school's we
 
 ## Documentation
 
-The Html5 banner consists of the following files and folders:
+The html5 banner consists of the following files and folders:
 1. <index.html>
 2. <card.html>
 3. <css/style.css>
 4. <css/main.css>
 3. <js/script.js>
-4. <img>folder with four files, one of which is a video.
+4. <img> folder with four files, one of which is a video.
 
 
 Below is a link to see it running on github. Note the banner may have a different video or slightly revised text than the one enclosed in this deployment of the banner. The logo will be specific to the bank partner.
 
-https://sherry133.github.io/Register/#school-savings-registration-banner
+https://sherry133.github.io/Register/
 
 The size of the banner is 350 X 600 pixels and it is responsive. The size of the banner can be easily modified by changing the width and height in the 'showcase' css in <style.css>. Larger size changes may require some text size modifications.
 
@@ -35,7 +35,7 @@ Copy the <card.html> file into your banner folder.
 
 Copy the <img >folder into your banner system (if one exists) and rename the folder and file names, if necessary. SUBSTITUTE YOUR BANK PARTNER'S LOGO FOR THE FIB ONE. Ask the person who sent you this information for the logo your bank partner uses.
 
-Copy the <script.js> file into your javascript folder and rename the file if you already have a <script.js> file. Add the reference link in the index.html file to the script.js file.
+Copy the <script.js> file into your javascript folder and rename the file if you already have a <script.js> file. Add the reference link in the index.html file to the <new__name.js> file.
 
 Copy the <style.css> file into your 'css' folder and rename the file if you already have a <style.css> file. Change the reference link from the index.html file to the <style.css> file unless you are just adding the code to an existing css <style.css> file.
 
@@ -43,17 +43,17 @@ Copy the <main.css> file into your 'css' folder.
 
 ## View banner in your browser.
 
-https://sherry133.github.io/Register/#school-savings-registration-banner
+https://sherry133.github.io/Register/
 
 ## Contact Us
 
-Contact support@schoolsavings.com or call 888-787-7728 with questions 24/7
+Contact support@schoolsavings.com or call 888-787-7728 with questions 24/7.
 
 ## License
 
 MIT License
 
-Copyright (c) [2022] [School Savings]
+Copyright (c) 2022 School Savings
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

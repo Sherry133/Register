@@ -32,12 +32,13 @@ header .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(
+    background-image: url("/img/beach_pink.jpg")
+    /* background-image: linear-gradient(
         120deg,
         hsl(196, 79%, 34%) 0%,
         #fda085 80%
-    );
-    /* background-color: #0482bc; */
+    ); */
+    /* background-color: #0482bc; */;
     transition: 0.5s;
     overflow: hidden;
     z-index: 2;
