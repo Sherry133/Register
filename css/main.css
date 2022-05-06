@@ -56,9 +56,9 @@ body {
 }
 
 .card__front {
-  background-color: var(--clr);
-  background-image: url("/img/dark__beach.jpg");
- /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/fair.jpg);  */;
+  background-color: #0482bc;
+  background-image: url("./img/dark__beach.jpg");
+ /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/fair.jpg);  */
   background-size: cover;
   background-blend-mode: overlay;
   color: #333;
