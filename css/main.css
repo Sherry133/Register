@@ -32,7 +32,7 @@ body {
   position: relative;
   padding: 15em 5em;
   transition: transform 3s;
-  background: #111;
+  background: pink;
   transform-style: preserve-3d;
 }
 
@@ -57,7 +57,8 @@ body {
 
 .card__front {
   background-color: var(--clr);
-  background-image: url('../img/dark__beach.jpg');
+  background-image: url("/img/dark__beach.jpg")
+ /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/fair.jpg);  */;
   background-size: cover;
   background-blend-mode: overlay;
   color: #333;
@@ -82,7 +83,7 @@ body {
   text-transform: uppercase;
 }
 
-.card__subtitle .card__subtitle2 {
+.card__subtitle {
   transform: var(--level-two);
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -90,9 +91,7 @@ body {
   font-weight: var(--fw-bold);
   opacity: .7;
 }
-.card__subtitle {
-  font-size: 1.25rem;
-}
+
 .card__body {
   transform: var(--level-two);
   font-weight: var(fw-normal);
