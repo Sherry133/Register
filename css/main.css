@@ -60,8 +60,6 @@ body {
 .card__front {
     background-color: #b7c9e5;
     background-image: url("../img/dark__beach.jpg");
-
-    /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/308367/fair.jpg);  */
     background-size: cover;
     background-blend-mode: overlay;
     color: #333;
@@ -90,9 +88,19 @@ body {
     transform: var(--level-two);
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
     font-weight: var(--fw-bold);
     opacity: 0.7;
+}
+
+@media (max-width: 480px) {
+    header {
+       font-size: 1.75;
+    }
+  
+}
+.card__subtitle2 {
+    font-size: 1rem;
 }
 
 .card__body {

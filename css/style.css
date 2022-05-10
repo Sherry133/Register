@@ -180,7 +180,7 @@ a:hover {
 
 /* This hover also changes the hover color of the 'list' and secondary button. */
 .mab__button:hover {
-    /* background: lightblue; */
+  
     cursor: pointer;
 }
 
@@ -199,7 +199,7 @@ a:hover {
   
 }
 .mab__button--secondary:hover {
-    /* background: lightblue; */
+  
     cursor: pointer;
 }
 
