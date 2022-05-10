@@ -11,7 +11,7 @@ The html5 banner consists of the following files and folders:
 3. <css/style.css>
 4. <css/main.css>
 3. <js/script.js>
-4. <img> folder with four files.
+4. <img> folder with five files.
 
 
 Below is a link to see it running on github.  The logo will be specific to the bank partner.
