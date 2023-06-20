@@ -1,0 +1,66 @@
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.026.001.07" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:camt.026.001.07 InformationRequest_camt_026_001_07.xsd">
+	<UblToApply>
+		<Assgnmt>
+			<Id>20230618345678987RFPSc04Stp3AMsgId</Id>
+			<Assgnr>
+				<Agt>
+					<FinInstnId>
+						<ClrSysMmbId>
+							<ClrSysId>
+								<Cd>USABA</Cd>
+							</ClrSysId>
+							<MmbId>888888888</MmbId>
+						</ClrSysMmbId>
+					</FinInstnId>
+				</Agt>
+			</Assgnr>
+			<Assgne>
+				<Agt>
+					<FinInstnId>
+						<ClrSysMmbId>
+							<ClrSysId>
+								<Cd>USABA</Cd>
+							</ClrSysId>
+							<MmbId>676767888</MmbId>
+						</ClrSysMmbId>
+					</FinInstnId>
+				</Agt>
+			</Assgne>
+			<CreDtTm>2023-06-18T02:07:26Z</CreDtTm>
+		</Assgnmt>
+		<Case>
+			<Id>RFPSc04Step2Credit</Id>
+			<Cretr>
+				<Pty>
+					<Nm>Bank A Employee</Nm>
+					<CtctDtls>
+						<PhneNb>+1-88885553333</PhneNb>
+						<PrefrdMtd>PHON</PrefrdMtd>
+					</CtctDtls>
+				</Pty>
+			</Cretr>
+		</Case>
+		<Undrlyg>
+			<IntrBk>
+				<OrgnlGrpInf>
+					<OrgnlMsgId>20230618676767888RFPSc04Step2MsgId</OrgnlMsgId>
+					<OrgnlMsgNmId>pain.008.001.09</OrgnlMsgNmId>
+					<OrgnlCreDtTm>2023-06-18T05:07:26Z</OrgnlCreDtTm>
+				</OrgnlGrpInf>
+				<OrgnlInstrId>RFISc1Step1InstrId001</OrgnlInstrId>
+				<OrgnlEndToEndId>RFISc1Step1EtoEId001</OrgnlEndToEndId>
+				<OrgnlTxId>RFISc1Step1TransId001</OrgnlTxId>
+				<OrgnlIntrBkSttlmAmt Ccy="USD">45021.75</OrgnlIntrBkSttlmAmt>
+				<OrgnlIntrBkSttlmDt>2023-07-26</OrgnlIntrBkSttlmDt>
+			</IntrBk>
+		</Undrlyg>
+		<Justfn>
+			<MssngOrIncrrctInf>
+				<IncrrctInf>
+					<Cd>IN06</Cd>
+					<AddtlIncrrctInf>'The amount of the transfer is incorrect. Amount agreed after discount was $49,021.75. Please advise'</AddtlIncrrctInf>
+				</IncrrctInf>
+			</MssngOrIncrrctInf>
+		</Justfn>
+	</UblToApply>
+</Document>
